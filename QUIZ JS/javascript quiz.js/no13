@@ -1,0 +1,3 @@
+let: Allows you to declare a variable that can be reassigned but has block scope (limited to the block where it is defined).
+var: Declares a variable with function scope (or globally if not in a function). var can be redeclared in the same scope, and it has hoisting issues
+const: Declares a constant variable that cannot be reassigned. It also has block scope and cannot be redeclared. However, objects and arrays assigned to const can still have their contents modified
